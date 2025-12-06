@@ -1,0 +1,10 @@
+[package]
+name = "csci5448_research_project"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "csci5448_research_project"
+path = "src/rust/lib.rs"
+
+[dependencies]

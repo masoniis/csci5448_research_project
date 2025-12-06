@@ -23,7 +23,7 @@
         devShell = pkgs.mkShell {
           packages = with pkgs; [
             dart
-            cargo
+            rustup
             just
           ];
         };
