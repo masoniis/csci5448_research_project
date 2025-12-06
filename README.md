@@ -43,8 +43,8 @@ Note that when running with output, we set the number of test threads to 1 so th
 
 This project utilizes two distinct testing strategies for Rust examples:
 
-- **Unit Tests**: Standard tests (marked with #[test]) that verify the logic and runtime output of the functions. A good example of a unit test used is seen seen [here](./lib/rust/section_2dot1/basic_trait.rs#L51-L60).
-- **Documentation Tests**: Code examples embedded in the comments. Notably, this includes negative compilation tests (`compile_fail`), which assert that the compiler correctly rejects invalid code, something not possible with unit tests. Example seen [here](./lib/rust/section_2dot1/basic_trait.rs#L22-L31).
+- **Unit Tests**: Standard tests (marked with #[test]) that verify the logic and runtime output of the functions. A good example of a unit test used is seen seen [here](./lib/rust/section_2dot1/basic_trait_example.rs#L51-L60).
+- **Documentation Tests**: Code examples embedded in the comments. Notably, this includes negative compilation tests (`compile_fail`), which assert that the compiler correctly rejects invalid code, something not possible with unit tests. Example seen [here](./lib/rust/section_2dot1/basic_trait_example.rs#L22-L31).
 
 ### Dart
 

@@ -1,1 +1,1 @@
-pub mod diamond_problem;
+pub mod diamond_problem_resolution;

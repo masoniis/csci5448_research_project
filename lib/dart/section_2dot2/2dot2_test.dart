@@ -8,7 +8,7 @@ import './mixin_polymorphism.dart' as mixin_polymorphism;
 void main() {
   group('Section 2.2', () {
     group('basic_mixin_example', () {
-      test('usage runs', () {
+      test('Basic usage runs', () {
         // This test simply runs the main function to ensure it executes without
         // panicking, and enables viewing output when running with output using
         // using the method mentioned in the readme.
@@ -24,7 +24,7 @@ void main() {
     });
 
     group('mixin_linearization', () {
-      test('usage runs', () {
+      test('Basic usage runs', () {
         // This test simply runs the main function to ensure it executes without
         // panicking, and enables viewing output when running with output using
         // using the method mentioned in the readme.
@@ -41,7 +41,7 @@ void main() {
     });
 
     group('mixin_type_safe_constraints', () {
-      test('usage runs', () {
+      test('Basic usage runs', () {
         // This test simply runs the main function to ensure it executes without
         // panicking, and enables viewing output when running with output using
         // using the method mentioned in the readme.
@@ -77,7 +77,7 @@ void main() {
     });
 
     group('flutter_framework_example', () {
-      test('usage runs', () {
+      test('Basic usage runs', () {
         // This test simply runs the main function to ensure it executes without
         // panicking, and enables viewing output when running with output using
         // using the method mentioned in the readme.
