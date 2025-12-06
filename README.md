@@ -39,7 +39,7 @@ cargo test -- --test-threads=1 --no-capture
 
 Note that when running with output, we set the number of test threads to 1 so that output order is consistent, but the order doesn't matter for the regular test runs.
 
-#### Understanding Rust Tests
+#### Understanding the Rust Tests
 
 This project utilizes two distinct testing strategies for Rust examples:
 
@@ -56,14 +56,24 @@ This section goes over how to run and understand the Dart tests.
 
 - version used in project is `3.7.3`
 
+Before running tests, you must install all the dart packages by running
+
+```bash
+dart pub get
+```
+
 #### Build and Test Instructions
 
 1.  Navigate to the root of the project.
-2.  Get the dependencies:
-    ```bash
-    dart pub get
-    ```
-3.  Run the tests:
-    ```bash
-    dart test
-    ```
+2.  Run the tests (with output showing):
+
+```bash
+dart test
+```
+
+#### Understanding the Dart tests
+
+This project uses the standard test package. Unlike the Rust implementation, Dart does not support executable documentation tests (doctests). All verification is handled through standard unit tests. Further, tests are defined in separate files, as opposed to being directly in each file like we saw with the Rust tests.
+
+- Unit Tests: Located in `*_test.dart` files. For example, the section **2.2** tests are seen [./lib/dart/section_2dot2/2dot2_test.dart](here).
+- Structure: Tests are defined using the test('description', () { ... }) function and assertions are made using the expect(actual, matcher) pattern.

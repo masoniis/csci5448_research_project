@@ -35,8 +35,8 @@ impl SomeTrait for SomeType {
 }
 
 /// This function exists to showcase basic usage, and also exists to ensure the linter is
-/// satisfied. Tests to not count as usage, so otherwise, the above code is considered
-/// "dead code."
+/// satisfied regarding dead code. It also shows insightful output when running tests with
+/// output visible.
 pub fn basic_usage() {
     println!("\nRunning basic_trait.rs usage example!");
     let my_instance = SomeType { data: 10 };

@@ -44,8 +44,8 @@ impl Iterator for Counter {
 }
 
 /// This function exists to showcase basic usage, and also exists to ensure the linter is
-/// satisfied. Tests to not count as usage, so otherwise, the above code is considered
-/// "dead code."
+/// satisfied regarding dead code. It also shows insightful output when running tests with
+/// output visible.
 pub fn basic_usage() {
     println!("\nRunning associated_types.rs usage example!");
     let mut counter = Counter { count: 0 };
