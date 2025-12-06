@@ -12,7 +12,7 @@ class MyClass with SomeMixin {
   }
 }
 
-void main() {
+void runExample() {
   var myInstance = MyClass();
   myInstance.classMethod();
   myInstance.mixinMethod(); // Method is available

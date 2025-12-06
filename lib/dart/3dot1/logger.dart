@@ -19,7 +19,7 @@ class SomeService with Logger {
   }
 }
 
-void main() {
+void runExample() {
   var service = SomeService();
   service.doWork();
 }

@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "csci5448_research_project"
+name = "csci5448_research_project_rust_code_examples"
 version = "0.1.0"

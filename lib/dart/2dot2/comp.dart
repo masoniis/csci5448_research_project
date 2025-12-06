@@ -21,7 +21,7 @@ class _SomeState extends State<MyWidget>
   }
 }
 
-void main() {
+void runExample() {
   var myState = _SomeState();
   myState.initialize();
 }

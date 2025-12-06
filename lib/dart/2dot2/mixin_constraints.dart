@@ -17,7 +17,7 @@ mixin Rider on Vehicle {
 // 3. Use the mixin on a valid class
 class Motorcycle extends Vehicle with Rider {}
 
-void main() {
+void runExample() {
   var bike = Motorcycle();
   bike.ride();
 }

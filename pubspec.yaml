@@ -1,0 +1,11 @@
+name: csci5448_research_project_dart_code_examples
+description: Code examples for dart supporting a research paper on Traits vs Mixins.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+
+dev_dependencies:
+  test: ^1.16.0

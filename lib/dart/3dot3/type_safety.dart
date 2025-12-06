@@ -17,7 +17,7 @@ class Chair {}
 
 // Error: Chair does not extend Engine
 // This class will cause a compile-time error.
-class RocketChair extends Chair with Turbo {}
+// class RocketChair extends Chair with Turbo {}
 
 // Error: The non-abstract class 'RocketChair' is missing implementations for these members:
 //  - Engine.ignite
@@ -37,11 +37,11 @@ class RocketChair extends Chair with Turbo {}
 //  - 'Engine' is from 'src/dart/3dot3/type_safety.dart'.
 //  - 'Turbo' is from 'src/dart/3dot3/type_safety.dart'.
 // class RocketChair extends Chair with Turbo {}
-      ^
+//       ^
 
-void main() {
+void runExample() {
   var myCar = Car();
   myCar.boost();
 
-  var myChair = RocketChair();
+  // var myChair = RocketChair();
 }

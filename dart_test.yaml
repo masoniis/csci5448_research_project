@@ -1,0 +1,4 @@
+paths:
+  - lib/dart
+
+filename: "*_test.dart"

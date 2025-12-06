@@ -9,7 +9,7 @@ mixin Flyer {
 // Flyer.move() "wins" as it's last
 class Duck with Walker, Flyer {}
 
-void main() {
+void runExample() {
   print(Duck().move());
 }
 // Output: Flying
