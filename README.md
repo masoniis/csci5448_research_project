@@ -2,6 +2,12 @@
 
 This repo includes code examples from the [paper](./paper.pdf) as runnable tests.
 
+## Repo organization
+
+Both Dart and Rust have their own testing folders located in `lib`. Within these folders, there are subfolders named `section_xdotx` which represent any code examples from paper section `x.x`.
+
+- For example, `./lib/rust/section_2dot1` includes all Rust tests associated with the paper section **2.1**
+
 ## How to run tests
 
 ### Rust

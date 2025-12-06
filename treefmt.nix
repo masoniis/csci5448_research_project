@@ -7,11 +7,10 @@
     rustfmt.enable = true;
   };
 
-  settings.formatter.dartfmt = {
-    command = "dart format";
-    includes = [
-      "*.dart"
-    ];
+  settings.formatter.dart = {
+    command = "dart";
+    options = [ "format" ];
+    includes = [ "**/*.dart" ];
   };
 
   settings.global.excludes = [
