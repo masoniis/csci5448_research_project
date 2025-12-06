@@ -1,5 +1,5 @@
-/// This file includes code examples regarding the explanation of static dispatch
-/// seen in section 2.1 of the paper.
+/// This file includes code examples regarding the explanation of static
+/// dispatch seen in section 2.1 of the paper.
 
 /// The trait (the contract)
 trait Drawable {

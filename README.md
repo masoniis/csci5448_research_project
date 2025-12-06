@@ -24,7 +24,7 @@ This section goes over how to run and understand the Rust tests.
 cargo test
 ```
 
-To instead see the output of tests (including compile errors), run
+To instead see the output of tests (including compile errors from documentation tests), run
 
 ```bash
 cargo test -- --test-threads=1 --no-capture
@@ -33,12 +33,12 @@ cargo test -- --test-threads=1 --no-capture
 
 Note that when running with output, we set the number of test threads to 1 so that output order is consistent, but the order doesn't matter for the regular test runs.
 
-#### Understanding Tests
+#### Understanding Rust Tests
 
 This project utilizes two distinct testing strategies for Rust examples:
 
-- **Unit Tests**: Standard tests (marked with #[test]) that verify the logic and runtime output of the functions. A good example of a unit test used is seen seen [here](./lib/rust/2dot1/basic_trait.rs#L49-L58).
-- **Documentation Tests**: Code examples embedded in the comments. Notably, this includes negative compilation tests (`compile_fail`), which assert that the compiler correctly rejects invalid code, something not possible with unit tests. Example seen [here](./lib/rust/2dot1/basic_trait.rs#L22-L29).
+- **Unit Tests**: Standard tests (marked with #[test]) that verify the logic and runtime output of the functions. A good example of a unit test used is seen seen [here](./lib/rust/section_2dot1/basic_trait.rs#L51-L60).
+- **Documentation Tests**: Code examples embedded in the comments. Notably, this includes negative compilation tests (`compile_fail`), which assert that the compiler correctly rejects invalid code, something not possible with unit tests. Example seen [here](./lib/rust/section_2dot1/basic_trait.rs#L22-L31).
 
 ### Dart
 

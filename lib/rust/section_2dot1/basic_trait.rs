@@ -1,5 +1,5 @@
-/// This file includes code examples regarding the basic introduction of Traits
-/// seen in section 2.1 of the paper.
+/// This file includes code examples regarding the basic introduction of
+/// Traits seen in section 2.1 of the paper.
 
 /// The trait (the contract)
 pub trait SomeTrait {
@@ -21,7 +21,9 @@ impl SomeTrait for SomeType {
     ///
     /// ```compile_fail
     /// // We import the type, but NOT the trait here
-    /// let my_instance = rust_code_examples::ch_2dot1::basic_trait::SomeType { data: 10 };
+    /// use rust_code_examples::section_2dot1::basic_trait::SomeType;
+    ///
+    /// let my_instance = SomeType { data: 10 };
     ///
     /// // This fails to compile because the compiler doesn't know `some_method`
     /// // exists without the `SomeTrait` trait in scope.
