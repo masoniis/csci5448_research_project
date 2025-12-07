@@ -104,7 +104,7 @@ mod tests {
     }
 
     #[test]
-    fn test_main_runs() {
+    fn test_basic_usage_runs() {
         // This test simply runs the main function to ensure it executes without
         // panicking, and enables viewing output when running with output using
         // using the method mentioned in the readme.
