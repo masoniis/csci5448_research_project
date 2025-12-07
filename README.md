@@ -1,6 +1,6 @@
 # Research content on Comparative Analysis of Traits and Mixins
 
-This repo includes code examples from the [paper](./paper.pdf) as runnable tests.
+This repo includes code examples from the [paper](./OOAD_Research_Paper_2025___Mason_Bott.pdf) as runnable tests.
 
 ## Repo organization
 
@@ -54,7 +54,7 @@ This section goes over how to run and understand the Dart tests.
 
 [Dart SDK](https://dart.dev/get-dart)
 
-- version used in project is `3.7.3`
+- version used in project is `3.7.3`, most similar versions should work too.
 
 Before running tests, you must install all the dart packages by running
 

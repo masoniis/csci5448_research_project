@@ -1,8 +1,5 @@
 .direnv
 .bin
-
-
-# Added by cargo
-
 /target
 .dart_tool
+.DS_STORE
